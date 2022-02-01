@@ -1,9 +1,9 @@
-const email = [];
-const password = [];
+var email = [];
+var password = [];
 
 function LogInHere() {
-  const email = document.getElementById('uname').value;
-  const password = document.getElementById('pass').value;
+  var email = document.getElementById('uname').value;
+  var password = document.getElementById('pass').value;
 
   if (email === "" && password === "") {
     alert("Password is empty");
