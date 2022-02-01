@@ -18,7 +18,7 @@ let person = [
   ];
 
   for(let i= 0; i< person.length; i++ ) {
-    document.getElementById("demo").innerHTML += "<ul>" + person[i].name + '  ' + person[i].age + "</ul>";
+    document.getElementById("display").innerHTML += "<ul>" + person[i].name + '  ' + person[i].age + "</ul>";
 
   }
   
