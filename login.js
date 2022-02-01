@@ -9,7 +9,7 @@ function LogInHere() {
     alert("Password is empty");
   } else {
   }
-  if (email == "user@gmail.com" && password == "mypassword") {
+  if (email == "user@gmail.com" && password == "password") {
     window.location.href = "home.html"
   }
   else {
